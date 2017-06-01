@@ -1,0 +1,53 @@
+FE-MIB: YES
+SW-MIB: YES
+FA-MIB: YES
+FICON-MIB: YES
+HA-MIB: YES
+FCIP-MIB: YES
+IF-MIB: YES
+BD-MIB: YES
+BROCADE-MAPS-MIB: YES
+T11-FC-ZONE-SERVER-MIB: NO
+SW-TRAP: YES
+	swFCPortScn: YES
+	swEventTrap: YES
+		DesiredSeverity:None
+	swIPv6ChangeTrap: YES
+	swPmgrEventTrap: YES
+	swFabricReconfigTrap: YES
+	swFabricSegmentTrap: YES
+	swExtTrap: NO
+	swStateChangeTrap: NO
+	swPortMoveTrap: NO
+	swBrcdGenericTrap: YES
+	swDeviceStatusTrap: YES
+	swZoneConfigChangeTrap: NO
+FA-TRAP: YES
+	connUnitStatusChange: YES
+	connUnitEventTrap: YES
+	connUnitPortStatusChange: YES
+FICON-TRAP: YES
+	linkRNIDDeviceRegistration: YES
+	linkRNIDDeviceDeRegistration: YES
+	linkLIRRListenerAdded: YES
+	linkLIRRListenerRemoved: YES
+	linkRLIRFailureIncident: YES
+HA-TRAP: YES
+	fruStatusChanged: YES
+	cpStatusChanged: YES
+	fruHistoryTrap: YES
+IF-TRAP: YES
+	linkDown: YES
+	linkUp: YES
+BD-TRAP: YES
+	bdTrap: YES
+	bdClearTrap: YES
+MAPS-TRAP: YES
+	mapsTrapAM: YES
+T11-FC-ZONE-SERVER-TRAP: NO
+	t11ZsRequestRejectNotify: NO
+	t11ZsMergeFailureNotify: NO
+	t11ZsMergeSuccessNotify: NO
+	t11ZsDefZoneChangeNotify: NO
+	t11ZsActivateNotify: NO
+

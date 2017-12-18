@@ -1,0 +1,3 @@
+# Zabbix-templates
+
+Please consider this branch as an error, see https://github.com/i5513/zabbix-templates/tree/github better ...
